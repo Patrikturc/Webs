@@ -1,6 +1,6 @@
 # Welcome to your project!
 
-To run the project just run `npm install` and then `npm run dev`.
+To run the project, using cmd or powershell, navigate into the directory where the project currently resides and run `npm install` and then `npm run dev`.
 You should then be able to access the app on `http://localhost:3000`.
 
 The main files live inside the app folder.
