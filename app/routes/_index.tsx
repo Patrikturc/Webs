@@ -1,8 +1,8 @@
 import type { MetaFunction } from "@remix-run/node";
-import { TopBanner } from "~/routes/components/TopBanner";
-import { Experiences } from "~/routes/components/Experiences";
-import { Education } from "~/routes/components/Education";
-import { Footer } from "~/routes/components/Footer";
+import { TopBanner } from "~/components/TopBanner";
+import { Experiences } from "~/components/Experiences";
+import { Education } from "~/components/Education";
+import { Footer } from "~/components/Footer";
 
 export const meta: MetaFunction = () => {
   return [
