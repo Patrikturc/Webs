@@ -15,7 +15,7 @@ export default function Index() {
   return (
     // This is the main layout for the website
     // It includes the top banner, experiences, education, and footer components
-    <main className={"w-screen h-screen"}>
+    <main className={"w-screen h-screen overflow-x-hidden"}>
       <TopBanner />
       <Experiences />
       <Education />
