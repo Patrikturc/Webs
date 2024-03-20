@@ -1,4 +1,4 @@
-const backgroundImageUrl = "banner.jpeg";
+const backgroundImageUrl = "banner.webp";
 const title = "Welcome to Jetrolon Gear's website!";
 const subtitle = "This website is built with Remix and Tailwind CSS";
 
@@ -12,7 +12,7 @@ export function TopBanner() {
       {/* This is an image. It is used to display an image on the website. It has a src attribute that specifies the URL of the image. It also has an alt attribute that specifies the alternative text for the image. This text is used by screen readers to describe the image to visually impaired users. It also has a className of "absolute w-full h-full object-cover". This means that it is 100% of the width and height of its parent container and it is set to cover the entire container. */}
       <img
         src={backgroundImageUrl}
-        alt="Banner"
+        alt={"Banner"}
         className="absolute w-full h-full object-cover"
       />
 
