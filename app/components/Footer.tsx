@@ -36,7 +36,7 @@ export function Footer() {
         </a>
       </div>
       <div className="max-w-6xl mx-auto px-4 text-center text-sm mt-4 text-gray-400">
-        &copy; {new Date().getFullYear()} Jetrolon Gear
+        &copy; {new Date().getFullYear()} Laura
       </div>
     </footer>
   );

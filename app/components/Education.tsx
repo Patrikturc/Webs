@@ -1,15 +1,15 @@
 const educationItems = [
   {
-    institution: "University of Example",
+    institution: "University of the West of Scotland",
     degree: "Bachelor of Science",
     fieldOfStudy: "Computer Science",
-    years: "2016 - 2020",
+    years: "2021 - 2023",
   },
   {
-    institution: "Example Community College",
-    degree: "Associate of Arts",
-    fieldOfStudy: "General Studies",
-    years: "2014 - 2016",
+    institution: "New College Lanarkshire",
+    degree: "HND",
+    fieldOfStudy: "Computer Software Development",
+    years: "2019 - 2021",
   },
   // Add more education items as needed
 ];
