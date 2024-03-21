@@ -1,5 +1,7 @@
+import React from "react";
+
 const backgroundImageUrl = "banner.jpeg";
-const title = "Welcome to Jetrolon Gear's website!";
+const title = "Hi, I'm Patrik, welcome to my website!";
 const subtitle = "This website is built with Remix and Tailwind CSS";
 
 // Components are the building blocks of a website. They are reusable and can be used in multiple places. They are also easy to test and maintain. In this example, we have a TopBanner component that displays a banner with a background image and some text. We can use this component in multiple places in our website.

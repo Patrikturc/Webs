@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { TopBanner } from "~/components/TopBanner";
 import { Experiences } from "~/components/Experiences";
+import { Projects } from "~/components/Projects";
 import { Education } from "~/components/Education";
 import { Footer } from "~/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Index() {
     <main className={"w-screen h-screen"}>
       <TopBanner />
       <Experiences />
+      <Projects/>
       <Education />
       <Footer />
     </main>
