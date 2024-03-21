@@ -1,7 +1,7 @@
 const projects = [
     {
         id: "1",
-        title: "Research Tool",
+        title: "Public Company Details Research Tool",
         details: [
             "Quickly find items with the highest momentum in a variety of timeframes",
             "Assign weighed score to all companies the selection based on the chosen interval"
