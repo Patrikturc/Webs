@@ -7,7 +7,7 @@ import { Footer } from "~/components/Footer";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Jetrolon Gear" },
+    { title: "Patrik Website" },
     { name: "description", content: "Welcome to my website!" },
   ];
 };
