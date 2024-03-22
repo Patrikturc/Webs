@@ -22,22 +22,24 @@ const experiences = [
 
 export function Experiences() {
   return (
-    <div className="bg-gray-100 p-8">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {experiences.map((experience, index) => (
-          <div key={index} className="back shadow-md rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-2">{experience.title}</h3>
-            <p className="text-gray-800">{experience.description}</p>
-            <ul className="mt-4">
-              {experience.details.map((detail, index) => (
-                <li key={index} className="text-sm text-gray-600">
-                  - {detail}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+    <div className="bg-blue-200 pl-40 pb-10">
+      <h2 className="text-3xl font-semibold mb-0">Experience
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {experiences.map((experience, index) => (
+            <div key={index} className="back shadow-md rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-2">{experience.title}</h3>
+              <p className="text-gray-800">{experience.description}</p>
+              <ul className="mt-4">
+                {experience.details.map((detail, index) => (
+                  <li key={index} className="text-sm text-gray-600">
+                    - {detail}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </h2>
     </div>
   );
 }

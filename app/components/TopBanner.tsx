@@ -9,13 +9,13 @@ export function TopBanner() {
   return (
     // This is a div. It is a container that holds other elements. It is used to group elements together. It can also be used to apply styles to a group of elements.
     // This div has a className of "relative h-96 w-full overflow-hidden". This means that it is 96% of the height of its parent container and it is 100% of the width of its parent container. It also has overflow hidden, which means that any content that overflows the div will be hidden.
-    <div className="relative h-96 w-full overflow-hidden">
+    <div className="relative h-96 w-full overflow-x-hidden">
       {/* Background Image */}
       {/* This is an image. It is used to display an image on the website. It has a src attribute that specifies the URL of the image. It also has an alt attribute that specifies the alternative text for the image. This text is used by screen readers to describe the image to visually impaired users. It also has a className of "absolute w-full h-full object-cover". This means that it is 100% of the width and height of its parent container and it is set to cover the entire container. */}
       <img
         src={backgroundImageUrl}
         alt="Banner"
-        className="absolute w-full h-full object-cover"
+        className="absolute w-full h-full object-cover overflow-x-hidden"
       />
 
       {/* Overlay */}
