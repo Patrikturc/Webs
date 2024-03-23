@@ -1,11 +1,10 @@
 const experiences = [
   {
     title: "Student",
-    description: "University of the West of Scotland",
+    //description: "University of the West of Scotland",
     details: [
       "Developed a prototype of quantitative algorithmic stock market research software in Python",
       "Using the ASP.Net framework with a combination of JS, CSS and HTML developed scalable web apps",
-      "Developed various back-end data structures such as array or linked list libraries. Implemented algorithms for sorting and searching, in both, C# and Java",
     ],
   },
   {
@@ -22,16 +21,16 @@ const experiences = [
 
 export function Experiences() {
   return (
-    <div className="bg-blue-200 pl-40 pb-10">
+    <div className="bg-gray-100 pl-20 pb-10 pt-10">
       <h2 className="text-3xl font-semibold mb-0">Experience
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
           {experiences.map((experience, index) => (
-            <div key={index} className="back shadow-md rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-2">{experience.title}</h3>
-              <p className="text-gray-800">{experience.description}</p>
+            <div key={index} className="bg-[#6c92d8] back shadow-md rounded-lg p-6">
+              <h3 className="text-black text-xl font-semibold mb-2">{experience.title}</h3>
+              <p className="text-black text-xl">{experience.description}</p>
               <ul className="mt-4">
                 {experience.details.map((detail, index) => (
-                  <li key={index} className="text-sm text-gray-600">
+                  <li key={index} className="text-sm text-black">
                     - {detail}
                   </li>
                 ))}

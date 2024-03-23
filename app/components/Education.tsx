@@ -17,16 +17,16 @@ const educationItems = [
 
 export function Education() {
   return (
-    <div className="bg-blue-200 mx-auto pl-40 pb-10"> {/* max-w-4xl*/}
-      <h2 className="text-3xl font-semibold mb-6">Education</h2>
-      <ul>
+    <div className=" bg-gray-100 mx-auto pl-20 pb-10"> {/* max-w-4xl*/}
+      <h2 className="text-3xl font-semibold mb-2">Education</h2>
+      <ul className="justify-left flex">
         {educationItems.map((item, index) => (
-          <li key={index} className="mb-0">
+          <li key={index} className="px-10">
             <div className="text-lg font-medium">{item.institution}</div>
             <div className="text-md text-gray-800">
               {item.degree} in {item.fieldOfStudy}
             </div>
-            <div className="text-sm text-gray-600">{item.years}</div>
+            <div className="text-sm text-gray-800">{item.years}</div>
           </li>
         ))}
       </ul>
