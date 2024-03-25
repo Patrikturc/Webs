@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-gray-800 text-white py-6">
       <div className="max-w-6xl mx-auto px-4 flex justify-center space-x-4">
         <a
-          href={linkedinUrl}
+          href={"https://www.linkedin.com/in/patrik-turcani-b6066a24a/"}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-blue-600 hover:bg-blue-700 rounded-full px-4 py-2 text-sm font-medium"
@@ -22,7 +22,7 @@ export function Footer() {
           </div>
         </a>
         <a
-          href={githubUrl}
+          href={"https://github.com/Patrikturc"}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-blue-600 hover:bg-blue-700 rounded-full px-4 py-2 text-sm font-medium"
