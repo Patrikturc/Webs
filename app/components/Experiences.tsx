@@ -23,9 +23,9 @@ export function Experiences() {
   return (
     <div className="bg-gray-100 pl-20 pb-10">
       <h2 className="text-3xl font-semibold mb-0">Experience
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
+        <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
           {experiences.map((experience, index) => (
-            <div key={index} className="px-10">
+            <div key={index} className="px-5">
               <h3 className="text-black text-xl font-semibold mb-2">{experience.title}</h3>
               {/* <p className="text-black text-xl">{experience.description}</p> */}
               <ul className="mt-4">

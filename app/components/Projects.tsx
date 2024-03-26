@@ -23,7 +23,7 @@ export function Projects() {
     return (
         <div className="bg-gray-100 pl-20 pb-10 pt-10">
             <h2 className="text-3xl font-semibold pt-00">Projects
-                <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
+                <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
                     {projects.map((proj) => (
                         <a href={proj.url}>
                             <div key={proj.id} className="bg-[#6c92d8] back shadow-md rounded-lg p-6">

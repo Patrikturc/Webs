@@ -21,7 +21,7 @@ export function Education() {
       <h2 className="text-3xl font-semibold mb-2">Education</h2>
       <ul className="justify-left flex">
         {educationItems.map((item, index) => (
-          <li key={index} className="px-10">
+          <li key={index} className="px-5">
             <div className="text-lg font-medium">{item.institution}</div>
             <div className="text-md text-gray-800">
               {item.degree} in {item.fieldOfStudy}
