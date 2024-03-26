@@ -18,8 +18,8 @@ export default function Index() {
     // It includes the top banner, experiences, education, and footer components
     <main className={"w-full h-full"}>
       <TopBanner />
-      <Experiences />
       <Projects/>
+      <Experiences />
       <Education />
       <Footer />
     </main>

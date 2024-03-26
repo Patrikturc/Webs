@@ -21,13 +21,13 @@ const experiences = [
 
 export function Experiences() {
   return (
-    <div className="bg-gray-100 pl-20 pb-10 pt-10">
+    <div className="bg-gray-100 pl-20 pb-10">
       <h2 className="text-3xl font-semibold mb-0">Experience
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
           {experiences.map((experience, index) => (
-            <div key={index} className="bg-[#6c92d8] back shadow-md rounded-lg p-6">
+            <div key={index} className="px-10">
               <h3 className="text-black text-xl font-semibold mb-2">{experience.title}</h3>
-              <p className="text-black text-xl">{experience.description}</p>
+              {/* <p className="text-black text-xl">{experience.description}</p> */}
               <ul className="mt-4">
                 {experience.details.map((detail, index) => (
                   <li key={index} className="text-sm text-black">
